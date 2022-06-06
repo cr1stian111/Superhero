@@ -1,0 +1,28 @@
+#texto{
+    text-align:center;
+    vertical-align: top;
+}
+
+#imagenSuperHero{
+    max-width: 25%;
+    height: auto;
+}
+
+#busqueda{
+    text-align: center;
+}
+
+#idSuperheroe{
+    width: 42%;
+}
+
+#encontrado{
+    text-align: center;
+}
+
+.card.mb-3{
+    display:none;
+    width: 6%;
+}
+
+
