@@ -21,7 +21,7 @@ $(document).ready(function () {
         if (validacion(id)) {
             $("#card").css("display", "inline");
             //capturar por identificador de id del boton, tomar el id del superheroe
-            let url_api = "https://superheroapi.com/api/4905856019427443/" + id;
+            let url_api = "https://cors-anywhere.herokuapp.com/https://superheroapi.com/api/4905856019427443/" + id;
             $.ajax({
                 type: "GET",
                 url: url_api,
